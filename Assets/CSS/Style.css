@@ -1,1 +1,161 @@
+body {
+    background: red ;
+    background-image: linear-gradient(red, yellow);
+    
+}
 
+.start{
+    cursor: pointer;
+    margin: auto;
+    height: 50px;
+    width: 200px;
+    background: greenyellow;
+    font-size: 1em;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+}
+
+.start:hover{
+    cursor:pointer;
+}
+
+.start:active{
+    transform: translateY(4px);
+}
+.grid{
+    border-radius: 50px;
+    margin: 0 auto;
+    width: 1000px;
+    box-shadow: 15px 15px 15px;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+#trivia{
+    background: white;
+    padding: 20px;
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+
+.buttons{
+   
+    
+    
+    text-align: center;
+
+} 
+
+#button1, #button2, #button3, #button4 {
+    background: grey;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#button1:hover, #button2:hover, #button3:hover, #button4:hover{
+    box-shadow: 5px 5px 5px;
+    background: lightgrey;
+}
+
+#question{
+    text-align: center;
+    font-size: 2em;
+}
+
+#Submit{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    background: rgb(2, 181, 2);
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1em;
+    border: 1px solid black;
+}
+
+#Submit:hover{
+    background: rgb(29, 255, 29);
+    box-shadow: 2px 2px 2px;
+}
+
+#submission{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+#answer1, #answer2, #answer3, #answer4{
+    font-size: 1.5em;
+    color: white;
+}
+
+#timeLeft{
+    padding: 20px;
+}
+
+.reset{
+    text-align: center;
+}
+.restart{
+    cursor: pointer;
+    margin: auto;
+    height: 50px;
+    width: 200px;
+    background: red;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+    color: white;
+    font-size: 1.5em;
+    
+
+}
+#restartId{
+    text-align: center;
+    
+}
+
+.restart:hover{
+    cursor: pointer;
+
+}
+
+.restart:active{
+    transform: translateY(4px);
+}
+
+.answerChoice{
+    padding: 20px;
+    font-size: 1.5em;
+    border: 2px solid black;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    height: 20px;
+    background: lightblue;
+    box-shadow: 10px 10px 10px;
+    border-radius: 20px;
+   
+}
+
+.answerChoice:active{
+    transform: translateY(4px);
+}
+
+.answerChoice:hover{
+    cursor: pointer;
+    
+    
+}
